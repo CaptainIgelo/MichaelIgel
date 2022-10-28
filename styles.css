@@ -1,0 +1,168 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.navbar {
+    z-index: 1000;
+    position: fixed;
+    background-color: rgba(15, 130, 140, 0.178);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.navbar-items {
+    justify-content: center;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+}
+
+.projects {
+    margin-left: 10rem;
+}
+
+.nav-item {
+    margin-left: 2.5rem;
+}
+
+.about {
+    margin-top: 3rem;
+    background-color: rgba(15, 130, 140, 0.178);
+    /*box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);*/
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: center;
+    min-height: 40rem;
+}
+
+.about-text{
+    padding: 5rem;
+    border: 2px solid black;
+    border-radius: 50rem 50rem 2rem 50rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);
+    margin-right: 2.5rem;
+    margin-bottom: 10rem;
+}
+
+img.code  {
+    width: 5rem;
+    height: auto;
+}
+
+.avatar {
+    margin-top: 10rem;
+}
+
+.projects {
+    background-color: rgba(15, 130, 140, 0.178);
+    /*box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);*/
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    top: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: center;
+    min-height: 10rem;
+}
+
+.box {
+    padding: 5rem;
+    border: 2px solid black;
+    border-radius: 5rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);
+    margin-left: 40rem ;
+    margin-bottom: 5rem;
+}
+
+.projects-text  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    background-color: rgba(15, 130, 140, 0.178);
+    /*box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);*/
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    top: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: center;
+}
+
+.skill-content {
+    padding: 5rem;
+    border: 2px solid black;
+    border-radius: 5rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);
+    margin-right: 25rem ;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.skillh2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.pic {
+    width: 5rem;
+    height: auto;
+}
