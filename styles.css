@@ -9,10 +9,11 @@ html, ::after, ::before {
 }
 
 body {
+    
     padding: 0;
     margin: 0;
     border: 1px solid rgba(0, 0, 0, 0.125);
-    background-color: rgba(15, 130, 140, 0.178);
+    background-color: rgba(15, 130, 140, 0.178); 
 }
 
 .navbar {
@@ -60,6 +61,14 @@ body {
     margin-left: 5rem;
 }
 
+#result {
+    margin: .5rem;
+}
+
+.one {
+    display: inline-flex;
+}
+
 .projects {
     margin-left: 10rem;
 }
@@ -70,7 +79,7 @@ body {
 
 .about {
     margin-top: 3rem;
-    background-color: rgba(15, 130, 140, 0.178);
+    background-color:  rgba(15, 130, 140, 0.178);
     /*box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);*/
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.02);
@@ -188,11 +197,12 @@ img.pic {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.02)
+    color: rgba(255, 255, 255, 0.02);
 }
 
-.text::selection {
+.text:hover {
     color: black;
+    transition: color 10  0ms linear ;
 }
 
 #hint {
@@ -210,7 +220,18 @@ img.pic {
 
 /*NEW!*/
 
-form { max-width:420px; margin:50px auto; }
+.avatar2 {
+    margin-top: 5rem;
+}
+
+form { 
+    max-width:420px;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+
 
 .feedback-input {
   font-weight:500;
@@ -228,7 +249,7 @@ form { max-width:420px; margin:50px auto; }
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 5);
 }
 
-.feedback-input:focus { border:2px solid rgba(15, 130, 140, 0.178); }
+.feedback-input:focus { border:2px solid rgba(15, 130, 140, 1); }
 
 textarea {
   height: 150px;
@@ -251,3 +272,15 @@ textarea {
   background-color: rgba(15, 130, 140, 0.178);
 }
 [type="submit"]:hover { background:rgba(15, 130, 140, 0.8); }
+
+@media screen and (max-width: 1200px) {
+    :root {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        font-size: 5px;
+    }
+}
